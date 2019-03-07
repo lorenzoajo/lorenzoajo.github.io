@@ -11,6 +11,52 @@ per avere una buona prgrammazione convine mettere sui tag quelli che proprio vog
 */
 
 
+html body{
+    background-image: url(../img/bg.jpg);
+}
+
+/* questi stili sono claassi aggiuntinve per personalizzare quelle di bootstrap*/
+.my-container{
+    background-color: white;
+}
+
+
+.my-col{
+
+}
+
+
+.my-row{
+
+}
+
+/*fine classi aggiuntive per bootstrap*/
+
+/*freccia dowm e successiva amimazione*/
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  position: bottom;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .titolo{
     background-color: grey;
     text-align: center;
@@ -39,49 +85,14 @@ per avere una buona prgrammazione convine mettere sui tag quelli che proprio vog
 
 }
 
-.buttonAvanti{
-    text-align: center;
 
-    margin: auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    max-width: 20%;
-    min-width: 130px;
-
-    color :  white;
-
-}
-/*definisce quello che succede quando ci si passa sopra il mouse a quelli di classe titolo*/
-/*in questo caso cambia il colore dello sfondo con una animazione rallentata*/
-.buttonAvanti:hover{
-    background-color: black;
-    transition-duration: 0.4s;
-    transform-origin: top;
-
+.my-link-row{
+    padding: 0%;
+    margin: 0%;
 }
 
-.containerMio{
-    width: 80%;
-    margin: 10%;
-
-}
-
-.link{
+.linkMio{
     background-color: #131315;
-    padding: 1%;
-    text-align: center;
-}
-
-.mainMio{
-    background-color: white;
-    color : black;
-    padding: 1%;
-    text-align: center;
-}
-
-.footerMio{
-    background-color: #131315;
-    color : grey;
     padding: 1%;
     text-align: center;
 }
@@ -95,32 +106,17 @@ per avere una buona prgrammazione convine mettere sui tag quelli che proprio vog
 }
 
 
-html body{
-    background-image: url(../img/bg.jpg);
+
+.mainMio{
+    background-color: white;
+    color : black;
+    padding: 1%;
+    text-align: center;
 }
 
-
-
-/*freccia dowm e successiva amimazione*/
-.arrow {
-  text-align: center;
-  margin: 8% 0;
-  position: bottom;
-}
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+.footerMio{
+    background-color: #131315;
+    color : grey;
+    padding: 1%;
+    text-align: center;
 }

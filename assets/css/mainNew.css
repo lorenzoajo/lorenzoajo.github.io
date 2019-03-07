@@ -22,14 +22,12 @@ html body{
 
 
 .my-col{
-    border-style: solid;
-    border-image-width: 1px;
+
 }
 
 
 .my-row{
-    border-style: solid;
-    border-image-width: 1px;
+
 }
 
 /*fine classi aggiuntive per bootstrap*/
@@ -105,4 +103,20 @@ html body{
 .ulSocial li{
     display: inline;
     padding: 10px;
+}
+
+
+
+.mainMio{
+    background-color: white;
+    color : black;
+    padding: 1%;
+    text-align: center;
+}
+
+.footerMio{
+    background-color: #131315;
+    color : grey;
+    padding: 1%;
+    text-align: center;
 }
