@@ -67,12 +67,15 @@ html body{
     margin: auto;
     margin-top: 20%;
     margin-bottom: 20%;
-    max-width: 20%;
-    min-width: 130px;
+
+    max-width: 300px;
 
     color :  white;
 
 }
+
+
+
 /*definisce quello che succede quando ci si passa sopra il mouse a quelli di classe titolo*/
 /*in questo caso cambia il colore dello sfondo con una animazione rallentata*/
 .titolo:hover{
