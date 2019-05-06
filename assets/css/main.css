@@ -81,7 +81,11 @@ html body{
 .linkMio{
     background-color: #131315;
     padding: 1%;
-    text-align: left;
+    text-align: center;
+    
+}
+.distanziameli{
+  padding: 1%;
 }
 
 .ulSocial{
