@@ -1,6 +1,7 @@
 # The URL the site will be built for
-# base_url = "https://localhost:8080"
-base_url = "https://lorenzoajo.github.io/"
+base_url = "https://localhost:8080"
+# You can override this in build phase passing --base-url <YOUR_DEPLOY_URL>
+# base_url = "https://lorenzoajo.github.io/"
 
 title = "Personal site cause why not"
 description = "To lazy to describe my personal website"

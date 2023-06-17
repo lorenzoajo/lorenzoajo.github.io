@@ -21,7 +21,7 @@ base_url = "https://localhost:8080"
 docker run  -v $PWD:/app --workdir /app -p 8080:8080 -p 1024:1024 --name zola ghcr.io/getzola/zola:v0.17.1 serve --interface 0.0.0.0 --port 8080 --base-url localhost
 ```
 
-### how build to dist with docker container
+### how build to dist with docker container (This will put the result in the /public folder overriding the entire content)
 ```bash
-docker run -v $PWD:/app --workdir --name zola-build-container /app ghcr.io/getzola/zola:v0.17.1 build
+docker run -v $PWD:/app --workdir /app --name zola-build-container ghcr.io/getzola/zola:v0.17.1 build --base-url $DEPLOY_URL "https://lorenzoajo.github.io/"
 ```
