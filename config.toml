@@ -1,0 +1,31 @@
+# The URL the site will be built for
+base_url = "https://localhost:8080"
+# You can override this in build phase passing --base-url <YOUR_DEPLOY_URL>
+# base_url = "https://lorenzoajo.github.io/"
+
+title = "Personal site cause why not"
+description = "To lazy to describe my personal website"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# The default language; used in feeds.
+default_language = "en"
+
+[extra]
+# User settings
+username = "Lorenzo Ajo"
+user_description = "As a full-stack developer, I thrive in the dynamic world of software development, where I wield a diverse range of cutting-edge technologies to bring ideas to life. With a passion for backend development, I harness the power of Node.js, Python, and databases like MongoDB and PostgreSQL to architect robust and scalable solutions. My expertise extends to crafting efficient RESTful APIs, implementing complex business logic, and ensuring seamless integration with front-end frameworks like React and Vue.js,. Additionally, my proficiency in Linux and open-source tools empowers me to optimize workflows, manage servers, and deploy applications efficiently"
+user_title = "Full-stack Software Developer"
+email = "lorenzo.ajo@gmail.com"
+github_username =  "lorenzoajo"
+
+# Google-analytics
+google_analytics.id = ""

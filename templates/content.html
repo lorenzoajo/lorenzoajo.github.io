@@ -1,0 +1,84 @@
+{% macro about() %}
+ <div class="user-details">
+  <h1> My Expertise </h1>
+  <p> {{ config.extra.user_description }} </p>
+</div>
+  <div class="user">
+    <div class="tech">
+      <h2>Frontend</h2>
+      <div class="tech-icons">
+        <i class="devicon-vuejs-plain colored"></i>
+        <i class="devicon-react-original-wordmark colored"></i>
+        <i class="devicon-sass-original colored"></i>
+      </div>
+      <p>Modern framework and libraries I use to build nice UI</p>
+    </div>
+    <div class="tech">
+      <h2>Code</h2>
+      <div class="tech-icons">
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-nodejs-plain-wordmark"></i>
+        <i class="devicon-python-plain colored"></i> 
+      </div>
+      <p>My go to for reliable and strong backend and scripting</p>
+    </div>
+    <div class="tech">
+      <h2>Tools</h2>
+      <div class="tech-icons">
+        <i class="devicon-git-plain colored"></i>
+        <i class="devicon-linux-plain"></i>
+        <i class="devicon-amazonwebservices-original colored"></i>
+      </div>
+      <p>Love for linux and experienced in using aws for a fast and scalable infrastructure</p>
+    </div>
+</div>
+{% endmacro about %}
+
+{% macro skills() %}
+<div class="user-details">
+  <h1> Work experience </h1>
+</div>
+<div class="user-skills">
+  <div class="images-right">
+    <img alt="medical-field" src="{{ config.base_url ~ "/img/medical-data-visualization.png" }}" />
+  </div>
+  <div class="contents">
+    <h3> Medical data visualization </h3>
+    <ul>
+      <li> 3D visualization</li>
+      <li> Dicom protocol</li>
+      <li> AI for smart prediction</li>
+    </ul>
+    <p>Worked to create tools for medical data visualization and smart prediction with AI to help medical profesionist do their job at best</p>
+  </div>
+</div>
+<div class="user-skills">
+  <div class="images-left">
+    <img alt="iot" src="{{ config.base_url ~ "/img/iot.jpg" }}" />
+  </div>
+  <div class="contents-right">
+    <h3> IOT for connected vehicles </h3>
+    <ul>
+      <li> High scalability</li>
+      <li> Aws cloud infrastructure</li>
+      <li> Big data</li>
+    </ul>
+    <p>Developed robust and reliable infrastructure to retrieve data from more then 1 Million devices installed on different kind of vehicles</p>
+  </div>
+</div>
+<div class="user-skills">
+  <div class="images-right">
+    <img alt="enterprise" src="{{ config.base_url ~ "/img/enterprise.png" }}" />
+  </div>
+  <div class="contents-left">
+    <h3> Enterprise software for insurance</h3>
+    <ul>
+      <li> Clean and reusable code</li>
+      <li> Design patterns for enterprise</li>
+      <li> Sensitive data segregation</li>
+    </ul>
+    <p>Learned how to manage big and complex code base to be easily maintained on the long run by large teams</p>
+  </div>
+</div>
+{% endmacro skills %}
+
