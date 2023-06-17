@@ -21,8 +21,8 @@ default_language = "en"
 [extra]
 # User settings
 username = "Lorenzo Ajo"
-user_description = "Extra description"
-user_title = "Software Developer"
+user_description = "As a full-stack developer, I thrive in the dynamic world of software development, where I wield a diverse range of cutting-edge technologies to bring ideas to life. With a passion for backend development, I harness the power of Node.js, Python, and databases like MongoDB and PostgreSQL to architect robust and scalable solutions. My expertise extends to crafting efficient RESTful APIs, implementing complex business logic, and ensuring seamless integration with front-end frameworks like React and Vue.js,. Additionally, my proficiency in Linux and open-source tools empowers me to optimize workflows, manage servers, and deploy applications efficiently"
+user_title = "Full-stack Software Developer"
 email = "lorenzo.ajo@gmail.com"
 github_username =  "lorenzoajo"
 
